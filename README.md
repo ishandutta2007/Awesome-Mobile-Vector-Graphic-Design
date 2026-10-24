@@ -65,12 +65,12 @@ The following table summarizes the leading commercial and SaaS mobile vector gra
 
 Explore active open-source vector graphics engines, touch-optimized SVG editors, and native mobile drawing applications. 
 
-Entries are sorted in **descending order by GitHub star count**. Each star badge links directly to that project's stargazers community.
+Entries are sorted in **descending order by GitHub Stars_Count**. Each Stars_Badge links directly to that project's stargazers community.
 
 ---
 
 ### 1. 🦀 [Graphite](https://graphite.rs/) — `GraphiteEditor/Graphite`
-[![GitHub stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social&color=white)](https://github.com/GraphiteEditor/Graphite/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social&color=white)](https://github.com/GraphiteEditor/Graphite/stargazers)
 
 - **Platform Target**: Responsive Web / Progressive Web App (PWA), Touch Tablets, Desktop
 - **License**: Apache-2.0
@@ -80,7 +80,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 2. 🌐 [SVG-Edit](https://svg-edit.github.io/svgedit/) — `SVG-Edit/svgedit`
-[![GitHub stars](https://img.shields.io/github/stars/SVG-Edit/svgedit?style=social&color=white)](https://github.com/SVG-Edit/svgedit/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/SVG-Edit/svgedit?style=social&color=white)](https://github.com/SVG-Edit/svgedit/stargazers)
 
 - **Platform Target**: Touch-Optimized Web / Mobile Browser / WebView
 - **License**: MIT
@@ -90,7 +90,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 3. ✍️ [Saber](https://saber.adil.hanney.org/) — `saber-notes/saber`
-[![GitHub stars](https://img.shields.io/github/stars/saber-notes/saber?style=social&color=white)](https://github.com/saber-notes/saber/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/saber-notes/saber?style=social&color=white)](https://github.com/saber-notes/saber/stargazers)
 
 - **Platform Target**: Android (Google Play, F-Droid), iOS (App Store), Linux, Windows
 - **License**: GPL-3.0
@@ -100,7 +100,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 4. 🎨 [Method Draw](https://editor.method.ac/) — `methodofaction/Method-Draw`
-[![GitHub stars](https://img.shields.io/github/stars/methodofaction/Method-Draw?style=social&color=white)](https://github.com/methodofaction/Method-Draw/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/methodofaction/Method-Draw?style=social&color=white)](https://github.com/methodofaction/Method-Draw/stargazers)
 
 - **Platform Target**: Mobile Web, Tablets, Embedded PWA
 - **License**: MIT
@@ -110,7 +110,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 5. ⚡ [GodSVG](https://godsvg.com/) — `MewPurPur/GodSVG`
-[![GitHub stars](https://img.shields.io/github/stars/MewPurPur/GodSVG?style=social&color=white)](https://github.com/MewPurPur/GodSVG/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/MewPurPur/GodSVG?style=social&color=white)](https://github.com/MewPurPur/GodSVG/stargazers)
 
 - **Platform Target**: Android (APK Releases), Web, Linux, Windows, macOS
 - **License**: MIT
@@ -120,7 +120,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 6. 🍏 [Inkpad Libre](https://github.com/sprang/Inkpad) — `sprang/Inkpad`
-[![GitHub stars](https://img.shields.io/github/stars/sprang/Inkpad?style=social&color=white)](https://github.com/sprang/Inkpad/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/sprang/Inkpad?style=social&color=white)](https://github.com/sprang/Inkpad/stargazers)
 
 - **Platform Target**: iPadOS / iOS
 - **License**: MPL-2.0
@@ -130,7 +130,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 7. 🦋 [Butterfly](https://butterfly.linwood.dev/) — `LinwoodDev/Butterfly`
-[![GitHub stars](https://img.shields.io/github/stars/LinwoodDev/Butterfly?style=social&color=white)](https://github.com/LinwoodDev/Butterfly/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/LinwoodDev/Butterfly?style=social&color=white)](https://github.com/LinwoodDev/Butterfly/stargazers)
 
 - **Platform Target**: Android (Google Play, F-Droid), iOS, Web, Desktop
 - **License**: AGPL-3.0
@@ -140,7 +140,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 8. 🖌️ [Fossify Paint](https://github.com/FossifyOrg/Paint) — `FossifyOrg/Paint`
-[![GitHub stars](https://img.shields.io/github/stars/FossifyOrg/Paint?style=social&color=white)](https://github.com/FossifyOrg/Paint/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/FossifyOrg/Paint?style=social&color=white)](https://github.com/FossifyOrg/Paint/stargazers)
 
 - **Platform Target**: Android (F-Droid, Google Play)
 - **License**: GPL-3.0
@@ -150,7 +150,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 9. 🤖 [FreePaint](https://github.com/pastthepixels/FreePaint) — `pastthepixels/FreePaint`
-[![GitHub stars](https://img.shields.io/github/stars/pastthepixels/FreePaint?style=social&color=white)](https://github.com/pastthepixels/FreePaint/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/pastthepixels/FreePaint?style=social&color=white)](https://github.com/pastthepixels/FreePaint/stargazers)
 
 - **Platform Target**: Android (F-Droid Releases)
 - **License**: GPL-3.0
@@ -160,7 +160,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 10. 📐 [ShapeEdit](https://github.com/dmytro-anokhin/ShapeEdit) — `dmytro-anokhin/ShapeEdit`
-[![GitHub stars](https://img.shields.io/github/stars/dmytro-anokhin/ShapeEdit?style=social&color=white)](https://github.com/dmytro-anokhin/ShapeEdit/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/dmytro-anokhin/ShapeEdit?style=social&color=white)](https://github.com/dmytro-anokhin/ShapeEdit/stargazers)
 
 - **Platform Target**: iOS / iPadOS
 - **License**: MIT
@@ -170,7 +170,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 11. 📱 [VectorTouch](https://github.com/syntaxerror247/VectorTouch) — `syntaxerror247/VectorTouch`
-[![GitHub stars](https://img.shields.io/github/stars/syntaxerror247/VectorTouch?style=social&color=white)](https://github.com/syntaxerror247/VectorTouch/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/syntaxerror247/VectorTouch?style=social&color=white)](https://github.com/syntaxerror247/VectorTouch/stargazers)
 
 - **Platform Target**: Android (Google Play, GitHub APKs)
 - **License**: MIT
@@ -180,7 +180,7 @@ Entries are sorted in **descending order by GitHub star count**. Each star badge
 ---
 
 ### 12. 🔵 [Dodeclusters](https://github.com/pier-bezuhoff/Dodeclusters) — `pier-bezuhoff/Dodeclusters`
-[![GitHub stars](https://img.shields.io/github/stars/pier-bezuhoff/Dodeclusters?style=social&color=white)](https://github.com/pier-bezuhoff/Dodeclusters/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/pier-bezuhoff/Dodeclusters?style=social&color=white)](https://github.com/pier-bezuhoff/Dodeclusters/stargazers)
 
 - **Platform Target**: Android (7.0+), Desktop, Web
 - **License**: Apache-2.0
