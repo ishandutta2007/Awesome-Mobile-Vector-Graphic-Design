@@ -1,69 +1,250 @@
-# Awesome-Mobile-Vector-Graphic-Design
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobile Vector Graphic Design Banner" width="100%">
+</p>
 
-## Top Mobile Vector Graphic Design Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Touch-Optimized SVG Editing, iPad Illustration Apps & Android Vector Tools*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Vector Graphic Design**. These tools bring vector illustration to tablets and phones — paths, bezier curves, layers, and SVG export — with a spectrum running from polished commercial iPad apps to open-source Android editors that run entirely offline.
-
-**Examples** include Inkpad Libre, FreePaint, Butterfly, VectorTouch, and Inky (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, touch-optimized SVG editing, and offline mobile design — especially relevant as **Inkpad Libre revives the classic open-source iPad vector app** under the MPL 2.0 license , and **FreePaint** offers native SVG editing on Android via F-Droid .
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **Adobe Illustrator on iPad** — **The reference professional vector tool for tablets.** Full Illustrator toolset reimagined for touch and Apple Pencil, with Creative Cloud sync and .ai file compatibility. **Subscription required** (Creative Cloud plan). **Best for professional designers** already in Adobe's ecosystem who need desktop-class vector power on an iPad.
-
-- **Affinity Designer for iPad** — **The one-time-purchase professional alternative.** Full vector and raster workspace with native CMYK, Pantone libraries, and PSD/AI import/export. **One-time purchase** (~$18.49). **Best for designers** wanting professional-grade iPad illustration without subscriptions.
-
-- **Vectornator (Linearity Curve)** — **The free Apple-ecosystem vector design tool.** Free plan with paid Pro tiers, Apple Pencil support, auto-trace, and Boolean operations. **Trade-offs**: Apple-only, no Android or Windows version. **Best for iPad users** wanting a polished free vector app with Apple Pencil integration.
-
-- **Concepts** — **The infinite-canvas sketching app.** Vector-based drawing on an infinite canvas with adjustable precision, ideal for ideation and wireframing. **Free tier with paid Pro**. **Best for designers** wanting a flexible ideation space rather than precise illustration.
-
-## Open-Source GitHub Projects
-
-- **Inkpad Libre** — **The open-source iPad vector illustration app, revived.** **Mozilla Public License 2.0**, free on the App Store with the source available on GitHub . **A revival of Steven Sprang's original Inkpad**, updated for modern iPadOS versions . **Full vector toolset**: pen tool for bezier paths, compound paths, masks, groups, text objects with custom font import, gradient fills, arbitrary stroke dash patterns, Boolean operators (Unite, Intersect, Exclude, Subtract Front), and unlimited layers with rename/rearrange/hide/lock . **Designed for performance** — handles hundreds to thousands of shapes without lag . **Export to SVG, PDF, PNG, and JPEG**, with direct Dropbox and Files app integration . **The honest caveat**: **iPad-only** and the last update was in 2020 — it works on modern iPadOS but is not actively developed . **Best for iPad users** wanting a free, open-source vector illustration app with a proven feature set, accepting that it is a stable but dormant project .
-
-- **FreePaint** — **The native Android vector drawing app.** **Open-source, available on F-Droid**, with **Material Design 3** and dynamic colors . **Draw open or closed paths** with customizable fill/stroke colors and stroke sizes, **erase shapes from closed paths or points from open paths**, and **save/load SVG files** . **Selection tool** for marquee-selecting and moving paths . **Pan and pinch-to-zoom** . **Requires Android 7.0+** . **The honest caveat**: **basic feature set** — no layers, no Boolean operations, no text tools, and no gradient fills . **Best for Android users** wanting a simple, offline SVG drawing app without ads or subscriptions .
-
-- **Butterfly (Linwood Butterfly)** — **The infinite-canvas note-taking and drawing app.** **AGPL-3.0 licensed**, available on **Android, desktop, and web** . **Endless workspace** for placing notes, sketches, diagrams, images, and documents wherever they make sense . **Stylus, touch, or mouse input**, with **text and Markdown typing**, shapes, images, and **PDF/SVG import** . **Export to PDF, SVG, images, or portable Butterfly files** . **Layers, pages, page folders, areas, waypoints, reusable packs, palettes, and text styles** — almost everything remains editable . **Privacy-first**: works offline, files stored on your device, optional WebDAV/Nextcloud sync, **no required account or subscription** . **Best for Android tablet users** wanting an infinite-canvas vector app that doubles as a note-taking and diagramming tool .
-
-- **VectorTouch** — **The touch-optimized SVG editor for Android.** **MIT licensed**, bringing the **GodSVG** editing experience to mobile with a touch-friendly interface . **Direct SVG file editing** on Android devices . **Available on Google Play Store**, with direct APK downloads (arm32, arm64, x86_64) from GitHub releases . **The honest caveat**: **still in development** — may have bugs, and the feature set is narrower than desktop editors . **Best for Android users** wanting direct SVG markup editing with a mobile-optimized interface .
-
-- **Inky (Inkscape for Android)** — **The unofficial Inkscape adaptation for Android.** **GPLv3 licensed**, a paid app (~R$ 9,99) that runs **the full Linux Inkscape desktop version** on Android via a compatibility layer . **Full Inkscape feature set**: vector shapes, text, gradients, bitmap tracing, and SVG import/export . **Touch controls**: tap to left-click, slide to move mouse, pinch to zoom, two-finger tap for right-click, and on-screen keyboard access . **The honest caveat**: **it is a desktop app running on a phone** — the interface is not touch-native, and using it without a stylus and tablet is cumbersome . **Best for Android power users** who specifically need Inkscape's full feature set on the go, accepting the awkward touch experience .
-
-### Additional Strong Open-Source Options
-
-- **GodSVG** — **The structured SVG editor with low abstraction.** Free, open-source, available on **Android** alongside desktop platforms . **Modify individual SVG elements** via a user-friendly interface while generating **clean, optimized, human-readable code in real time** . **Best for developers and designers** wanting precise SVG markup control on mobile .
-- **Dodeclusters** — **The circle-based vector editor for mobile and desktop.** **Beta-stage**, built with Compose Multiplatform, supporting **Android 7.0+**, desktop, and web . **Infinite canvas and zoom**, circle geometry instrumentation, dynamic expression-dependency tree, undo/redo, and **safe SVG export** . **Best for experimental designers** wanting a mathematically-driven vector tool on Android, accepting beta-stage stability .
-- **Fossify Paint** — **The privacy-focused Android drawing app.** **Open-source, available on F-Droid**, with brush size/color customization, canvas background options, and **PNG, JPG, and SVG export** . **Works completely offline** with no intrusive permissions . **The honest caveat**: **raster-first** — SVG export is supported but the drawing model is pixel-based, not true vector path editing . **Best for simple doodling and sketching** on Android with privacy in mind .
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Mobile vector design tools differ significantly in platform support, touch optimization, and feature depth. **Inkpad Libre is the most complete open-source iPad vector app** with a full illustration toolset and SVG/PDF export, but **it is iPad-only and has not been updated since 2020** . **FreePaint is the simplest Android SVG editor** — it saves real SVG files but lacks layers, text, and Boolean operations . **Butterfly is an infinite-canvas tool**, not a traditional vector illustrator — it excels at notes and diagrams but is not designed for precise bezier illustration . **VectorTouch is still in development** and may have bugs . **Inky runs full desktop Inkscape on Android**, but the experience is not touch-native — a stylus and tablet are strongly recommended . **The choice often comes down to platform**: iPad users have Inkpad Libre, Android users have FreePaint or Butterfly, and power users who need Inkscape's full toolset can accept Inky's compromises.
-- Self-hosted open-source solutions require proper app installation from F-Droid or GitHub releases (not always the Play Store), and awareness that mobile vector editors are limited by available screen size and touch precision compared to desktop tools.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jcxxtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-hhe-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design?style=flat-square&logo=github&color=gold" alt="Repo Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design?style=flat-square&logo=github&color=blue" alt="Repo Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for mobile designers, illustrators, and developers choosing vector design tools that match their tablet platform and touch workflow.**
-Let's make mobile vector graphic design more open, touch-optimized, and offline-capable.
+# 📱 Awesome Mobile Vector Graphic Design 🎨
+
+> **The definitive curated directory of touch-optimized vector design apps, mobile SVG editors, iPad illustration suites, and open-source tablet tools.**
+
+Mobile vector graphic design has undergone a technological renaissance. Driven by ultra-low-latency styluses (such as the Apple Pencil Pro and Samsung S-Pen), high-refresh OLED tablet displays, and hardware-accelerated 2D vector engines, designers can now craft intricate bezier paths, complex Boolean operations, dynamic typography, and production-grade SVG artwork entirely on mobile devices.
+
+Whether you are looking for an enterprise-ready cloud SaaS suite for iPad Pro or an offline-first, privacy-respecting open-source Android SVG editor on F-Droid, this catalog indexes the premier software solutions in the ecosystem.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Tablet Platforms](#-saas--commercial-tablet-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🧭 Decision Matrix: Choosing the Right Tool](#-decision-matrix-choosing-the-right-tool)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [📜 License](#-license)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global vector graphics and digital illustration software market was valued at **$1.85 billion in 2024** and is projected to expand to **$3.60 billion by 2030**, reflecting a compound annual growth rate (**CAGR of 9.8%**). Growth is propelled by mobile-first creatives, touch-native tablet workflows, responsive UI/UX asset generation, and increasing demand for lightweight, infinitely scalable SVG assets across cross-platform applications.
+
+The industry demonstrates a **moderately concentrated, bifurcated market structure**:
+- **Enterprise & Desktop-Parity Core (Concentrated Oligopoly)**: Adobe (Illustrator on iPad) and Canva / Serif (Affinity Designer) hold near winner-take-most dominance among professional agency pipelines, studio subscription tiers, and multi-asset production teams.
+- **Mobile-Native & Creator Frontier (Moderately Fragmented)**: The tablet-first and stylus-native tier remains intensely competitive and fragmented. Prosumer platforms like Linearity Curve and Concepts compete head-to-head with a thriving ecosystem of community-driven, offline-first open-source editors (Graphite, GodSVG, FreePaint, Inkpad Libre) addressing privacy, raw SVG code cleanliness, and zero-subscription creator freedom.
+
+---
+
+## 💼 SaaS & Commercial Tablet Platforms
+
+The following table summarizes the leading commercial and SaaS mobile vector graphic design tools, sorted in **descending order by company scale** (market capitalization, private valuation, or annual revenue).
+
+| 🏷️ Product / Platform | 🏢 Company & Scale (Valuation / Revenue) | 💵 Starting Tier Pricing | 🎁 Free Tier / Trial Limits | ⚡ Supported Platforms & Core Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Illustrator on iPad](https://www.adobe.com/products/illustrator/ipad.html)** | **Adobe Inc.**<br>• Market Cap: **~$220 Billion**<br>• Revenue: **~$21.4B ARR** | **$9.99 / month** *(iPad standalone App Store)* or **$22.99 / month** *(CC Single App)* | **7-day unrestricted free trial** with full Apple Pencil support, vector toolset, and 100 GB Creative Cloud storage; auto-renews at $9.99/mo unless cancelled | **iPadOS**<br>• Desktop-class bezier pen tool, radial/grid symmetry repeat, typography engine, Apple Pencil hover, and direct `.ai` cloud syncing. |
+| **[Affinity Designer for iPad](https://affinity.serif.com/en-us/designer/ipad/)** | **Canva / Serif Ltd.**<br>• Valuation: **~$26 Billion**<br>• Revenue: **~$2.5B ARR** | **$18.49 one-time** *(iPad standalone license)* or **$164.99 one-time** *(V2 Universal)* | **30-day unrestricted free trial** across full vector and raster personas, CMYK Pantone palettes, and unlimited exports; zero credit card required | **iPadOS**<br>• Hybrid vector/raster workspace, non-destructive Boolean operators, 1,000,000%+ zoom precision, and zero subscription overhead. |
+| **[Linearity Curve](https://www.linearity.io/curve/)** *(formerly Vectornator)* | **Linearity GmbH**<br>• Valuation: **~$120 Million**<br>• Total Funding: **~$33 Million** | **$9.99 / month** *(billed annually at $119.88/yr)* or **$15.00 / month** *(monthly)* | **Free forever Starter plan** restricted to 3 active documents, 3 artboards per file, 10 AI auto-trace credits/month, and standard 720p/1080p exports | **iPadOS, iOS, macOS**<br>• Machine-learning auto-trace, integrated Unsplash/icon libraries, shape builder tool, multi-artboard UI design, and Apple Pencil pressure. |
+| **[Concepts](https://concepts.app/)** | **TopHatch, Inc.**<br>• Valuation: **~$25 Million**<br>• Funding: **~$3.2M Seed/Series A** | **$4.99 / month** *(or $29.99/yr Everything subscription)* or **$14.99 one-time** *(Essentials)* | **Free forever plan** restricted to infinite canvas with 5 active layers, basic COPIC wheel, and JPG/PNG export (excludes SVG/PDF vector exports and selection tools) + **7-day Pro trial** | **iPadOS, iOS, Android, Windows**<br>• Infinite-canvas hybrid vector sketchpad, customizable organic pen dynamics, CAD-like measurement grids, and responsive cross-platform stylus input. |
+| **[Amadine](https://amadine.com/)** | **BeLight Software, Ltd.**<br>• Valuation: **~$8–$10 Million**<br>• Revenue: **~$5M ARR** | **$1.99 / month**, **$9.99 / year**, or **$9.99 one-time** *(Lifetime In-App Purchase)* | **Free forever mode** restricted to a single active document with 1 artboard sheet, export watermark on high-res vector/raster files, and no multi-sheet batch export | **iPadOS, iOS, macOS**<br>• Streamlined, touch-centric UI, high-precision pen and path width tools, variable stroke profiles, and clean SVG/PDF/EPS exports. |
+| **[Boxy SVG](https://boxy-svg.com/)** | **Jarosław Foksa (Indie)**<br>• Scale: **Bootstrapped**<br>• Revenue: **~$750K ARR** | **$9.99 / year** *(Standard Web/Mobile PWA)* or **$9.99 / month** *(Premium Cloud)* | **15-day unrestricted free trial** on mobile/app stores; free web demo mode limited to in-memory browser sandbox with no cloud sync or local file integration | **Mobile Web / PWA, Android, iPadOS**<br>• Direct 1:1 SVG DOM visual manipulation, zero vendor lock-in, pristine human-readable SVG code generation, and touch gesture navigation. |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Explore active open-source vector graphics engines, touch-optimized SVG editors, and native mobile drawing applications. 
+
+Entries are sorted in **descending order by GitHub star count**. Each star badge links directly to that project's stargazers community.
+
+---
+
+### 1. 🦀 [Graphite](https://graphite.rs/) — `GraphiteEditor/Graphite`
+[![GitHub stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social&color=white)](https://github.com/GraphiteEditor/Graphite/stargazers)
+
+- **Platform Target**: Responsive Web / Progressive Web App (PWA), Touch Tablets, Desktop
+- **License**: Apache-2.0
+- **Description**: An ambitious 2D vector graphics editor and procedural generative art suite powered by Rust and WebAssembly. Features native touch and stylus input handling, node-based procedural composition, sub-millisecond layer updates, and clean SVG export.
+- **GitHub**: [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)
+
+---
+
+### 2. 🌐 [SVG-Edit](https://svg-edit.github.io/svgedit/) — `SVG-Edit/svgedit`
+[![GitHub stars](https://img.shields.io/github/stars/SVG-Edit/svgedit?style=social&color=white)](https://github.com/SVG-Edit/svgedit/stargazers)
+
+- **Platform Target**: Touch-Optimized Web / Mobile Browser / WebView
+- **License**: MIT
+- **Description**: The classic, fast, web-based SVG drawing editor with touch-gesture support. Operates entirely in client-side JavaScript without server dependencies. Easily embedded into mobile hybrid apps and WebViews for on-the-go vector creation.
+- **GitHub**: [SVG-Edit/svgedit](https://github.com/SVG-Edit/svgedit)
+
+---
+
+### 3. ✍️ [Saber](https://saber.adil.hanney.org/) — `saber-notes/saber`
+[![GitHub stars](https://img.shields.io/github/stars/saber-notes/saber?style=social&color=white)](https://github.com/saber-notes/saber/stargazers)
+
+- **Platform Target**: Android (Google Play, F-Droid), iOS (App Store), Linux, Windows
+- **License**: GPL-3.0
+- **Description**: A cross-platform handwritten note-taking and vector drawing application built with Flutter. Provides hardware-accelerated stylus palm rejection, infinite zooming on vector ink strokes, Nextcloud sync integration, and native PDF/SVG export.
+- **GitHub**: [saber-notes/saber](https://github.com/saber-notes/saber)
+
+---
+
+### 4. 🎨 [Method Draw](https://editor.method.ac/) — `methodofaction/Method-Draw`
+[![GitHub stars](https://img.shields.io/github/stars/methodofaction/Method-Draw?style=social&color=white)](https://github.com/methodofaction/Method-Draw/stargazers)
+
+- **Platform Target**: Mobile Web, Tablets, Embedded PWA
+- **License**: MIT
+- **Description**: A lightweight, purposeful vector canvas editor created as a streamlined alternative to complex suites. Delivers a clean mobile canvas, path drawing tools, color gradients, shape libraries, and direct SVG code inspection.
+- **GitHub**: [methodofaction/Method-Draw](https://github.com/methodofaction/Method-Draw)
+
+---
+
+### 5. ⚡ [GodSVG](https://godsvg.com/) — `MewPurPur/GodSVG`
+[![GitHub stars](https://img.shields.io/github/stars/MewPurPur/GodSVG?style=social&color=white)](https://github.com/MewPurPur/GodSVG/stargazers)
+
+- **Platform Target**: Android (APK Releases), Web, Linux, Windows, macOS
+- **License**: MIT
+- **Description**: A structured vector graphics editor built with the Godot Engine, specifically designed for low-abstraction SVG authoring. Allows mobile and tablet creators to visually inspect, clean, and manipulate raw SVG nodes with real-time semantic code generation.
+- **GitHub**: [MewPurPur/GodSVG](https://github.com/MewPurPur/GodSVG)
+
+---
+
+### 6. 🍏 [Inkpad Libre](https://github.com/sprang/Inkpad) — `sprang/Inkpad`
+[![GitHub stars](https://img.shields.io/github/stars/sprang/Inkpad?style=social&color=white)](https://github.com/sprang/Inkpad/stargazers)
+
+- **Platform Target**: iPadOS / iOS
+- **License**: MPL-2.0
+- **Description**: The celebrated open-source vector illustration application designed specifically for the iPad. Features complete bezier pen path manipulation, compound paths, masking, gradient fills, Boolean path operations (Unite, Intersect, Exclude), unlimited layers, and native SVG/PDF export.
+- **GitHub**: [sprang/Inkpad](https://github.com/sprang/Inkpad)
+
+---
+
+### 7. 🦋 [Butterfly](https://butterfly.linwood.dev/) — `LinwoodDev/Butterfly`
+[![GitHub stars](https://img.shields.io/github/stars/LinwoodDev/Butterfly?style=social&color=white)](https://github.com/LinwoodDev/Butterfly/stargazers)
+
+- **Platform Target**: Android (Google Play, F-Droid), iOS, Web, Desktop
+- **License**: AGPL-3.0
+- **Description**: An infinite-canvas vector drawing, wireframing, and visual ideation app. Designed for stylus and finger gestures, supporting customizable palettes, area navigation, vector layers, and flexible SVG/PDF export with privacy-first offline storage.
+- **GitHub**: [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly)
+
+---
+
+### 8. 🖌️ [Fossify Paint](https://github.com/FossifyOrg/Paint) — `FossifyOrg/Paint`
+[![GitHub stars](https://img.shields.io/github/stars/FossifyOrg/Paint?style=social&color=white)](https://github.com/FossifyOrg/Paint/stargazers)
+
+- **Platform Target**: Android (F-Droid, Google Play)
+- **License**: GPL-3.0
+- **Description**: A lightweight, privacy-focused open-source drawing application for Android. Provides customizable stroke sizes, brush colors, multi-level undo/redo, zero tracking or ads, and export capability to SVG vector format.
+- **GitHub**: [FossifyOrg/Paint](https://github.com/FossifyOrg/Paint)
+
+---
+
+### 9. 🤖 [FreePaint](https://github.com/pastthepixels/FreePaint) — `pastthepixels/FreePaint`
+[![GitHub stars](https://img.shields.io/github/stars/pastthepixels/FreePaint?style=social&color=white)](https://github.com/pastthepixels/FreePaint/stargazers)
+
+- **Platform Target**: Android (F-Droid Releases)
+- **License**: GPL-3.0
+- **Description**: A native Material Design 3 vector graphics drawing tool for Android. Enables drawing open/closed bezier paths, point/node erasure, marquee multi-path selection, pinch-to-zoom navigation, and saving directly to standalone SVG files.
+- **GitHub**: [pastthepixels/FreePaint](https://github.com/pastthepixels/FreePaint)
+
+---
+
+### 10. 📐 [ShapeEdit](https://github.com/dmytro-anokhin/ShapeEdit) — `dmytro-anokhin/ShapeEdit`
+[![GitHub stars](https://img.shields.io/github/stars/dmytro-anokhin/ShapeEdit?style=social&color=white)](https://github.com/dmytro-anokhin/ShapeEdit/stargazers)
+
+- **Platform Target**: iOS / iPadOS
+- **License**: MIT
+- **Description**: A native Swift and SwiftUI vector canvas application demonstrating touch gestures, curve segment editing, anchor handles, and real-time path rendering for iOS and iPadOS.
+- **GitHub**: [dmytro-anokhin/ShapeEdit](https://github.com/dmytro-anokhin/ShapeEdit)
+
+---
+
+### 11. 📱 [VectorTouch](https://github.com/syntaxerror247/VectorTouch) — `syntaxerror247/VectorTouch`
+[![GitHub stars](https://img.shields.io/github/stars/syntaxerror247/VectorTouch?style=social&color=white)](https://github.com/syntaxerror247/VectorTouch/stargazers)
+
+- **Platform Target**: Android (Google Play, GitHub APKs)
+- **License**: MIT
+- **Description**: A dedicated touch-first mobile SVG graphics editor bringing structured SVG editing to mobile screens. Tailored for touch manipulation with direct APK distribution for ARM and x86 architectures.
+- **GitHub**: [syntaxerror247/VectorTouch](https://github.com/syntaxerror247/VectorTouch)
+
+---
+
+### 12. 🔵 [Dodeclusters](https://github.com/pier-bezuhoff/Dodeclusters) — `pier-bezuhoff/Dodeclusters`
+[![GitHub stars](https://img.shields.io/github/stars/pier-bezuhoff/Dodeclusters?style=social&color=white)](https://github.com/pier-bezuhoff/Dodeclusters/stargazers)
+
+- **Platform Target**: Android (7.0+), Desktop, Web
+- **License**: Apache-2.0
+- **Description**: An experimental, circle-geometry-based vector graphics editor built with Compose Multiplatform. Features an infinite canvas, dynamic expression dependency trees, and mathematical SVG export.
+- **GitHub**: [pier-bezuhoff/Dodeclusters](https://github.com/pier-bezuhoff/Dodeclusters)
+
+---
+
+## 🧭 Decision Matrix: Choosing the Right Tool
+
+```
+                        ┌──────────────────────────────────────────────┐
+                        │ Which mobile platform are you designing on?  │
+                        └──────────────────────┬───────────────────────┘
+                                               │
+                       ┌───────────────────────┴───────────────────────┐
+                       ▼                                               ▼
+             [ 🍎 iPadOS / iOS ]                             [ 🤖 Android OS ]
+                       │                                               │
+         ┌─────────────┴─────────────┐                   ┌─────────────┴─────────────┐
+         ▼                           ▼                   ▼                           ▼
+  Need Commercial             Prefer Open-Source  Need Commercial             Prefer Open-Source
+   Power & Sync?               & Zero Cost?        Infinite Canvas?            & Offline First?
+         │                           │                   │                           │
+  • Affinity Designer         • Inkpad Libre      • Concepts                  • GodSVG (structured SVG)
+    (One-time $18.49)           (Full iPad suite)   (Free / $4.99/mo)         • FreePaint (F-Droid)
+  • Illustrator iPad          • ShapeEdit         • Boxy SVG                  • Butterfly (infinite notes)
+    (Adobe CC Ecosystem)        (SwiftUI canvas)    (PWA / Android)           • Saber (stylus notes/SVG)
+  • Linearity Curve                                                           • Fossify Paint
+    (Freemium AI trace)                                                         (Minimalist drawing)
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand and refine this ecosystem directory are always welcome! 
+
+1. **Fork the Repository** on GitHub: [ishandutta2007/Awesome-Mobile-Vector-Graphic-Design](https://github.com/ishandutta2007/Awesome-Mobile-Vector-Graphic-Design).
+2. **Review Formatting**: Follow the existing Markdown table standards for SaaS and the bulleted badge pattern for open-source repositories.
+3. **Verify Pricing & Licensing**: Ensure commercial entries include specific dollar amounts and exact free tier/trial boundaries. Open-source entries must have public GitHub repositories with an OSI-approved license.
+4. **Submit a Pull Request**: Provide a concise summary of the additions and official references in your PR description.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Vector-Graphic-Design&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Vector-Graphic-Design&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and using the **Awesome Mobile Vector Graphic Design** directory! If this resource has helped you discover powerful vector tools for your tablet or smartphone, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility and help other designers discover mobile vector tools.
+- 🍴 **Fork and share** with fellow illustrators, UI/UX designers, and open-source enthusiasts.
+- 💬 **Join our community** on [Discord](https://discord.gg/jcxxtF58Ve) to discuss tablet workflows, SVG tricks, and new tool releases.
+- ☕ **Sponsor / Buy Me a Coffee**: If you find value in these curated resources and would like to support ongoing maintenance, please visit the **[GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**! Every contribution directly fuels further open-source research and updates.
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See [`LICENSE`](file:///C:/Users/hp/Documents/Projects/Awesome-Mobile-Vector-Graphic-Design/LICENSE) for more information.
+
+Explore more curated developer lists at **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)**.

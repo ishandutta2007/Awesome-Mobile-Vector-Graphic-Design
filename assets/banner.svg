@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="80%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Accent Stroke Gradients -->
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- UI Badge Gradients -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1.5" fill="#64748b" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .tag-category {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      fill: #38bdf8;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <!-- 1. Background Layers -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGradient)" />
+  <rect width="1200" height="420" rx="16" fill="url(#grid)" />
+  
+  <rect width="1200" height="420" rx="16" fill="url(#glowCyan)" />
+  <rect width="1200" height="420" rx="16" fill="url(#glowPurple)" />
+  <rect width="1200" height="420" rx="16" fill="url(#glowPink)" />
+
+  <!-- Outer Border -->
+  <rect width="1196" height="416" x="2" y="2" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- 2. Dynamic Animated Background Elements (Vector Paths & Control Curves) -->
+  <g opacity="0.65">
+    <!-- Animated Flowing Bezier Curve 1 -->
+    <path d="M -50,300 C 200,100 450,380 750,220 C 950,110 1100,280 1250,150" 
+          fill="none" 
+          stroke="url(#lineGrad1)" 
+          stroke-width="3.5" 
+          stroke-dasharray="16, 8" 
+          filter="url(#glowFilter)">
+      <animate attributeName="stroke-dashoffset" from="0" to="240" dur="12s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Animated Smooth Bezier Curve 2 -->
+    <path d="M -50,120 C 250,320 500,60 800,260 C 1000,390 1150,180 1250,320" 
+          fill="none" 
+          stroke="url(#lineGrad2)" 
+          stroke-width="2.5" 
+          stroke-dasharray="10, 6">
+      <animate attributeName="stroke-dashoffset" from="160" to="0" dur="16s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Vector Anchor Handles and Control Points (Animated) -->
+    <!-- Point 1 -->
+    <g transform="translate(250, 180)">
+      <animateTransform attributeName="transform" type="translate" values="250,180; 250,170; 250,180" dur="4s" repeatCount="indefinite" />
+      <line x1="-35" y1="20" x2="35" y2="-20" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7" />
+      <circle cx="-35" cy="20" r="3.5" fill="#38bdf8" />
+      <circle cx="35" cy="-20" r="3.5" fill="#38bdf8" />
+      <rect x="-5" y="-5" width="10" height="10" fill="#ffffff" stroke="#0284c7" stroke-width="2" />
+    </g>
+
+    <!-- Point 2 -->
+    <g transform="translate(920, 240)">
+      <animateTransform attributeName="transform" type="translate" values="920,240; 920,250; 920,240" dur="5s" repeatCount="indefinite" />
+      <line x1="-40" y1="-25" x2="40" y2="25" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.7" />
+      <circle cx="-40" cy="-25" r="3.5" fill="#c084fc" />
+      <circle cx="40" cy="25" r="3.5" fill="#c084fc" />
+      <rect x="-5" y="-5" width="10" height="10" fill="#ffffff" stroke="#9333ea" stroke-width="2" />
+    </g>
+
+    <!-- Subtle Floating Vector Shapes -->
+    <circle cx="140" cy="80" r="6" fill="#38bdf8" opacity="0.7">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1060" cy="90" r="7" fill="#f472b6" opacity="0.6">
+      <animate attributeName="r" values="6;9;6" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="110" cy="330" r="5" fill="#818cf8" opacity="0.5">
+      <animate attributeName="r" values="4;7;4" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1090" cy="320" r="5" fill="#2dd4bf" opacity="0.6">
+      <animate attributeName="r" values="5;8;5" dur="4.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- 3. Foreground Content (Guaranteed not hidden) -->
+  
+  <!-- Category Pill / Top Badge -->
+  <g transform="translate(485, 48)">
+    <rect width="230" height="30" rx="15" fill="#0f172a" stroke="#0284c7" stroke-width="1.2" opacity="0.9" />
+    <circle cx="20" cy="15" r="4.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="34" y="20" class="tag-category">CURATED ECOSYSTEM</text>
+  </g>
+
+  <!-- Stylized Vector Pen Nib Icon -->
+  <g transform="translate(600, 118)" filter="url(#shadow)">
+    <g transform="translate(-20, -20)">
+      <!-- Stylus / Pen Icon -->
+      <path d="M 20 2 L 32 18 C 30 25, 26 27, 24 38 L 16 38 C 14 27, 10 25, 8 18 Z" fill="url(#lineGrad1)" />
+      <circle cx="20" cy="22" r="2.5" fill="#0f172a" />
+      <line x1="20" y1="24.5" x2="20" y2="38" stroke="#0f172a" stroke-width="1.5" />
+    </g>
+  </g>
+
+  <!-- Title & Subtitle in Foreground with Shadow for Absolute Readability -->
+  <!-- Background plate behind text to strictly prevent occlusion -->
+  <rect x="150" y="145" width="900" height="135" rx="16" fill="#090d16" fill-opacity="0.45" />
+
+  <text x="600" y="195" text-anchor="middle" class="title-text" filter="url(#shadow)">
+    Awesome Mobile Vector Graphic Design
+  </text>
+  <text x="600" y="240" text-anchor="middle" class="sub-text" filter="url(#shadow)">
+    Touch-Optimized SVG Editing, iPad Illustration Apps &amp; Native Android Vector Tools
+  </text>
+
+  <!-- 4. Feature Badges / Pills Bar -->
+  <g transform="translate(140, 315)">
+    <!-- Pill 1: iOS & iPadOS -->
+    <g transform="translate(0, 0)">
+      <rect width="165" height="38" rx="10" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <text x="82" y="24" text-anchor="middle" class="pill-text">🍎 iPad &amp; iOS Apps</text>
+    </g>
+
+    <!-- Pill 2: Android Native -->
+    <g transform="translate(180, 0)">
+      <rect width="175" height="38" rx="10" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <text x="87" y="24" text-anchor="middle" class="pill-text">🤖 Android &amp; F-Droid</text>
+    </g>
+
+    <!-- Pill 3: SVG & Bezier -->
+    <g transform="translate(370, 0)">
+      <rect width="180" height="38" rx="10" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <text x="90" y="24" text-anchor="middle" class="pill-text">✒️ Bezier Paths &amp; SVG</text>
+    </g>
+
+    <!-- Pill 4: Apple Pencil & Stylus -->
+    <g transform="translate(565, 0)">
+      <rect width="185" height="38" rx="10" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <text x="92" y="24" text-anchor="middle" class="pill-text">⚡ Touch &amp; Stylus First</text>
+    </g>
+
+    <!-- Pill 5: Open-Source & SaaS -->
+    <g transform="translate(765, 0)">
+      <rect width="155" height="38" rx="10" fill="url(#pillGrad)" stroke="#334155" stroke-width="1.2" />
+      <text x="77" y="24" text-anchor="middle" class="pill-text">💎 SaaS &amp; Open Source</text>
+    </g>
+  </g>
+</svg>
