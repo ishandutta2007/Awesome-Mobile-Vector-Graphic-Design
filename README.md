@@ -1,6 +1,6 @@
 # Awesome-Mobile-Vector-Graphic-Design
 
-# Top Mobile Vector Graphic Design Ecosystem
+## Top Mobile Vector Graphic Design Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Touch-Optimized SVG Editing, iPad Illustration Apps & Android Vector Tools*  
